@@ -1,16 +1,34 @@
 import React, { Children } from "react";
 import Layout from "../components/Layout";
+import Grid from "@material-ui/core/Grid";
 
 const Index = (props) => {
   return (
     <Layout>
-      <h1 className="title">Welcome to Zaffre Web Solutions</h1>
+      <div className="indexWrapper">
+        <div className="homeJ">
+          <div className="homeJtext">
+            Welcome to{" "}
+            <img
+              src="/logo.png"
+              alt="."
+              style={{
+                height: "58px",
+                marginLeft: "10px",
+                left: "0",
+                position: "relative",
+              }}
+            />{" "}
+            Web Solutions
+          </div>
 
-      <p className="description">
-        The site is under construction
-        <br />
-        <code>come back after a while</code>
-      </p>
+          <div className="homeJdes">
+            A modern approach to web applications for the futuristic web design.
+          </div>
+        </div>
+      </div>
+
+      <div className="homeSec2"></div>
     </Layout>
   );
 };

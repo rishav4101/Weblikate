@@ -20,6 +20,9 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     margin: "0px",
     padding: "0px",
+    position: "fixed",
+    width: "100%",
+    zIndex: "999",
   },
   appbar: {
     backgroundColor: "rgba(255,255,255,0.1)",
@@ -39,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     flexGrow: 1,
-    paddingLeft: "20px",
+    paddingTop: "5px",
   },
   cross: {
     position: "absolute",
@@ -51,6 +54,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "30px",
     color: "#000",
     textDecoration: "none",
+    fontWeight: "500",
   },
 }));
 
@@ -69,6 +73,16 @@ export default function Mainnav() {
     <div className={classes.root}>
       <AppBar position="static" className={classes.appbar}>
         <Toolbar className={classes.toolbar}>
+          <img
+            src="/favicon.ico"
+            alt="."
+            style={{
+              height: "45px",
+              marginLeft: "10px",
+              left: "0",
+              position: "relative",
+            }}
+          />
           <Typography variant="h6" className={classes.title}>
             ZAFFRE
           </Typography>

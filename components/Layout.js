@@ -33,7 +33,8 @@ const Layout = (props) => {
     };
   }, [vantaEffect]);
   return (
-    <div ref={myRef} className="container">
+    <div>
+      <div ref={myRef} className="container"></div>
       <Head>
         <title>Zaffre</title>
         <link rel="icon" href="/favicon.ico" />
