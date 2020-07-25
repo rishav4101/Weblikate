@@ -1,18 +1,14 @@
 import React, { Children } from "react";
 import Layout from "../components/Layout";
 
-const Index = (props) => {
+const Team = (props) => {
   return (
     <Layout>
       <h1 className="title">Welcome to Zaffre Web Solutions</h1>
 
-      <p className="description">
-        The site is under construction
-        <br />
-        <code>come back after a while</code>
-      </p>
+      <p className="description">Team</p>
     </Layout>
   );
 };
 
-export default Index;
+export default Team;
