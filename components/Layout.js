@@ -28,13 +28,12 @@ const Layout = (props) => {
         })
       );
     }
-    return () => {
-      if (vantaEffect) vantaEffect.destroy();
-    };
   }, [vantaEffect]);
   return (
     <div>
-      <div ref={myRef} className="container"></div>
+      <div ref={myRef} className="container">
+        {" "}
+      </div>
       <Head>
         <title>Zaffre</title>
         <link rel="icon" href="/favicon.ico" />
