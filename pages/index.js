@@ -29,6 +29,8 @@ const Index = (props) => {
       </div>
 
       <div className="homeSec2"></div>
+      <div className="homeSec2"></div>
+      <div className="homeSec2"></div>
     </Layout>
   );
 };

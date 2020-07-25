@@ -32,17 +32,16 @@ const Layout = (props) => {
   return (
     <div>
       <div ref={myRef} className="container">
-        {" "}
+        <Head>
+          <title>Zaffre</title>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
+        <body>
+          <Mainnav />
+          {props.children}
+          <footer>copyright&copy; 2020 Zaffre</footer>
+        </body>
       </div>
-      <Head>
-        <title>Zaffre</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <body>
-        <Mainnav />
-        {props.children}
-        <footer>copyright&copy; 2020 Zaffre</footer>
-      </body>
     </div>
   );
 };
