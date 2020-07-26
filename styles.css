@@ -56,6 +56,22 @@ footer {
   -webkit-backdrop-filter: blur(5px);
 }
 
+.Foter {
+  position: relative;
+  width: 100%;
+
+  padding-bottom: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.Foterinner {
+  position: relative;
+  width: 90%;
+  max-width: 1400px;
+  margin: 10px auto;
+  text-align: center;
+}
 /*------------------NAVBAR MODAL--------------------------*/
 .modal {
   display: flex;
@@ -103,7 +119,7 @@ footer {
   border-right: 7px solid white;
   text-align: right;
   margin: 10px;
-  margin-top: 100px;
+  margin-top: 130px;
   margin-bottom: 70px;
   margin-right: 80px;
 }
@@ -135,7 +151,7 @@ footer {
     border-right: 0px solid white;
     text-align: right;
     margin: 10px;
-    margin-top: 100px;
+    margin-top: 130px;
     margin-bottom: 70px;
     margin-right: 10px;
   }
@@ -164,7 +180,7 @@ footer {
     border-right: 7px solid white;
     text-align: right;
     margin: 10px;
-    margin-top: 100px;
+    margin-top: 130px;
     margin-bottom: 70px;
     margin-right: 50px;
   }
@@ -189,7 +205,7 @@ footer {
 /*------------------HOME PAGE --------------*/
 .homeSec1wrap {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   margin: 10px auto;
   width: 92%;
 }
@@ -242,16 +258,41 @@ footer {
   font-size: 20px;
   text-transform: uppercase;
 }
+.homeBtn {
+  background-color: rgba(255, 255, 255, 0);
+  outline: none;
+  color: #fff;
+  border-radius: 10px;
+  width: 200px;
+  padding: 10px;
+  margin: 20px auto;
+  margin-bottom: 0;
+  height: 50px;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  position: relative;
+  cursor: pointer;
+}
+.homelastText {
+  position: relative;
+  font-weight: 600;
+  padding-top: 0px;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
 /*-------------------------------------------------*/
 
 /*------------------CONTACT PAGE--------------*/
 .contactWrap {
   text-align: center;
-  margin: 20px auto;
+  margin: 70px auto;
   color: #fff;
   position: relative;
-  margin-top: 70px;
   max-width: 700px;
+  padding-bottom: 1px;
 }
 .contactHead {
   color: #fff;
@@ -301,4 +342,63 @@ footer {
   text-align: center;
   text-transform: uppercase;
   font-weight: 500;
+}
+.contactnumber {
+  position: relative;
+  background-color: rgba(255, 255, 255, 1);
+  outline: none;
+  color: #000;
+  border-radius: 10px;
+  padding: 5px;
+  min-width: 140px;
+  width: 140px;
+  font-size: 17px;
+  margin: 0 auto;
+}
+/*-------------------------------------------------*/
+
+/*------------------About PAGE--------------*/
+.aboutWrap {
+  text-align: center;
+  margin: 20px auto;
+  color: #fff;
+  position: relative;
+  margin-top: 70px;
+  max-width: 1400px;
+}
+.aboutText {
+  color: #fff;
+  width: 90%;
+  margin: 10px auto;
+  font-size: 19px;
+  font-weight: 500;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 7px;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.profilecard {
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 260px;
+  position: relative;
+  padding: 20px;
+  border-radius: 7px;
+  margin: 0 auto;
+}
+/*-------------------------------------------------*/
+
+.serviceWrap {
+  padding-bottom: 1px;
+  text-align: center;
+  margin: 70px auto;
+  color: #fff;
+  position: relative;
+  margin-top: 70px;
+  width: 90%;
+  max-width: 1000px;
 }

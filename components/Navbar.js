@@ -73,6 +73,7 @@ export default function Mainnav() {
     <div className={classes.root}>
       <AppBar position="static" className={classes.appbar}>
         <Toolbar className={classes.toolbar}>
+          {" "}
           <img
             src="/favicon.ico"
             alt="."
@@ -84,7 +85,11 @@ export default function Mainnav() {
             }}
           />
           <Typography variant="h6" className={classes.title}>
-            ZAFFRE
+            <Link href="/">
+              <div style={{ textDecoration: "none", cursor: "pointer" }}>
+                ZAFFRE
+              </div>
+            </Link>
           </Typography>
           <IconButton
             edge="start"
@@ -123,9 +128,9 @@ export default function Mainnav() {
                     </Link>
                   </ListItem>
 
-                  <ListItem button key="Team">
-                    <Link href="/team">
-                      <div className={classes.listitem}>TEAM</div>
+                  <ListItem button key="Services">
+                    <Link href="/services">
+                      <div className={classes.listitem}>SERVICES</div>
                     </Link>
                   </ListItem>
                   <ListItem button key="Contact">
