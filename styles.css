@@ -5,6 +5,8 @@
 * {
   box-sizing: border-box;
   font-family: "Hind Vadodara", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 html,
 body {
@@ -111,6 +113,7 @@ footer {
   text-transform: uppercase;
   padding: 0px;
   margin: 0px;
+
   font-family: "Raleway", sans-serif;
 }
 .homeJtext img {
@@ -181,6 +184,9 @@ footer {
     text-transform: uppercase;
   }
 }
+/*-------------------------------------------------*/
+
+/*------------------HOME PAGE --------------*/
 .homeSec1wrap {
   text-align: center;
   padding-bottom: 30px;
@@ -205,7 +211,9 @@ footer {
   text-transform: uppercase;
 }
 .homeSec1Head p {
+  color: #ccc;
   position: relative;
+  padding: 20px;
   font-size: 30px;
   color: #fff;
   text-transform: uppercase;
@@ -233,4 +241,64 @@ footer {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
   text-transform: uppercase;
+}
+/*-------------------------------------------------*/
+
+/*------------------CONTACT PAGE--------------*/
+.contactWrap {
+  text-align: center;
+  margin: 20px auto;
+  color: #fff;
+  position: relative;
+  margin-top: 70px;
+  max-width: 700px;
+}
+.contactHead {
+  color: #fff;
+  margin: 10px auto;
+  width: 90%;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+.contactText {
+  color: #fff;
+  width: 90%;
+  margin: 10px auto;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+.contactform {
+  margin: 0 auto;
+
+  width: 90%;
+}
+.contactfield {
+  background-color: rgba(255, 255, 255, 0);
+  outline: none;
+  color: #fff;
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px auto;
+  height: 50px;
+  font-size: 18px;
+  text-align: center;
+}
+.contactBtn {
+  background-color: rgba(255, 255, 255, 1);
+  outline: none;
+  color: #000;
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px auto;
+  height: 50px;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
 }

@@ -10,8 +10,23 @@ const Index = (props) => {
           <div className="homeJtext">Welcome to Zaffre Web Solutions</div>
 
           <div className="homeJdes">
-            A modern approach to web applications for the futuristic web design
+            A portal to the future of web technologies and services
           </div>
+        </div>
+      </div>
+      <div className="homeSec1wrap">
+        <div className="homeSec1Head">
+          <p>WHY CHOOSE US?</p>
+        </div>
+        <div className="homeSec2">
+          <p>
+            If you are struggling with an old crappy website, If you want to
+            upgrade your website to the modern web applications or If you want
+            any other web solution, We have got you covered. We understand the
+            importance of being on web today and the investment you put in to
+            get the perfect product you would want. We cover almost all web
+            solution services to meet your requirements changing with time.
+          </p>
         </div>
       </div>
       <div className="homeSec1wrap">
@@ -55,22 +70,6 @@ const Index = (props) => {
             </div>
           </Grid>
         </Grid>
-      </div>
-      <div className="homeSec1wrap">
-        <div className="homeSec1Head">
-          <p>WHY CHOOSE US?</p>
-        </div>
-        <div className="homeSec2">
-          <p>
-            if you are struggling with old crappy sites or in any of the
-            following situations we are here to solve your problems we
-            understand the importance web presence build on modern web apps and
-            understand that investments into technology are justified only if
-            they translate into revenue Worried about Product and Execution?
-            Need help making your online presence Need help improving SEO or
-            Scaling up Your business we are here for you
-          </p>
-        </div>
       </div>
     </Layout>
   );
