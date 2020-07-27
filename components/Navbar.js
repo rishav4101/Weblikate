@@ -107,6 +107,7 @@ export default function Mainnav() {
             open={open}
             onClose={handleClose}
             closeAfterTransition
+            keepMounted={true}
             BackdropComponent={Backdrop}
             BackdropProps={{
               timeout: 500,

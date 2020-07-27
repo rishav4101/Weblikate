@@ -17,6 +17,7 @@ body {
   margin: 0;
   color: #fff;
   z-index: 1 !important;
+
   /* overflow: auto;*/
   /* position: relative; */
   -ms-overflow-style: none; /* Internet Explorer 10+ */
@@ -29,7 +30,14 @@ body::-webkit-scrollbar {
   height: 0;
   display: none;
 }
-
+hr {
+  margin: 37px auto;
+  position: relative;
+  color: #fff;
+  width: 60%;
+  max-width: 900px;
+  border: 1px solid white;
+}
 .container {
   position: fixed !important;
   z-index: 0 !important;
@@ -49,7 +57,7 @@ footer {
   border-top: 1px solid #eaeaea;
   position: fixed;
   bottom: 0;
-  padding: 10px;
+  padding: 0px;
   margin: 0;
   font-size: 14px;
   backdrop-filter: blur(5px);
@@ -78,7 +86,7 @@ footer {
   justify-content: center;
   align-items: center;
   position: absolute;
-  z-index: -1;
+  z-index: 999;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
 }
@@ -91,7 +99,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 999;
+  z-index: 9999;
   padding: 20px;
   width: 60%;
   height: 60%;

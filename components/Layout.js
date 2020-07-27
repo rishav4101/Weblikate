@@ -47,6 +47,7 @@ const Layout = (props) => {
               margin: "0 auto",
               padding: "3px",
               borderRadius: "7px",
+              marginTop: "7px",
             }}
           >
             copyright&copy; 2020 Zaffre

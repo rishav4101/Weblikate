@@ -16,20 +16,28 @@ const Index = (props) => {
         </div>
       </div>
       <div className="homeSec1wrap">
-        <div className="homeSec1Head">
-          <p>Lets start!</p>
-        </div>
-        <div className="homeSec2">
-          <p>
-            If you are struggling with an old crappy website, If you want to
-            upgrade your website to the modern web applications or If you want
-            any other web solution, We have got you covered. We understand the
-            importance of being on web today and the investment you put in to
-            get the perfect product you would want. We cover almost all web
-            solution services to meet your requirements changing with time.
-          </p>
-        </div>
+        <Grid container spacing={1}>
+          <Grid item xs={12} sm={12} md={3}>
+            <div className="homeSec1Head">
+              <p>Lets start!</p>
+            </div>
+          </Grid>
+          <Grid item xs={12} sm={12} md={9}>
+            <div className="homeSec2">
+              <p>
+                If you are struggling with an old crappy website, If you want to
+                upgrade your website to the modern web applications or If you
+                want any other web solution, We have got you covered. We
+                understand the importance of being on web today and the
+                investment you put in to get the perfect product you would want.
+                We cover almost all web solution services to meet your
+                requirements changing with time.
+              </p>
+            </div>
+          </Grid>
+        </Grid>
       </div>
+      <hr></hr>
       <div className="homeSec1wrap">
         <div className="homeSec1Head">
           <p>WHy zaffre?</p>
@@ -72,6 +80,7 @@ const Index = (props) => {
           </Grid>
         </Grid>
       </div>
+      <hr></hr>
       <div className="homeSec1wrap">
         <div className="homeSec1Head">
           <p>WHAT DO WE OFFER?</p>
@@ -119,44 +128,63 @@ const Index = (props) => {
           </Link>
         </form>
       </div>
+      <hr></hr>
       <div className="homeSec1wrap">
-        <div className="homeSec1Head">
-          <p>Who we are?</p>
-        </div>
-        <div className="homeSec2">
-          <p>
-            Zaffre Technology started out as a group of four enthusiastic
-            individuals from NIT Durgapur who shared a common vision. Being
-            regular contributors to open source and heavily involved in web
-            development brought us together. Zaffre Technology is a product of
-            our aligned dreams combined with our skills, experience and
-            hardwork.{" "}
-          </p>
-        </div>
-        <form>
-          <Link href="/about">
-            <button className="homeBtn">Know More</button>
-          </Link>
-        </form>
+        <Grid container spacing={1}>
+          <Grid item xs={12} sm={12} md={3}>
+            <div className="homeSec1Head">
+              <p>Who we are?</p>
+            </div>
+          </Grid>
+          <Grid item xs={12} sm={12} md={6}>
+            <div className="homeSec2">
+              <p>
+                Zaffre Technology started out as a group of four enthusiastic
+                individuals from NIT Durgapur who shared a common vision. Being
+                regular contributors to open source and heavily involved in web
+                development brought us together. Zaffre Technology is a product
+                of our aligned dreams combined with our skills, experience and
+                hardwork.{" "}
+              </p>
+            </div>
+          </Grid>
+          <Grid item xs={12} sm={12} md={3}>
+            <form>
+              <Link href="/about">
+                <button className="homeBtn">Know More</button>
+              </Link>
+            </form>
+          </Grid>
+        </Grid>
       </div>
+      <hr></hr>
       <div className="homeSec1wrap">
-        <div className="homeSec1Head">
-          <p>Thank You!</p>
-        </div>
-        <div className="homelastText">
-          <p>
-            Reach us out now without any hesitation. We promise you your
-            satisfaction with the services we provide.
-          </p>
-        </div>
-        <form>
-          <Link href="/about">
-            <button className="homeBtn" style={{ marginBottom: "30px" }}>
-              Contact us
-            </button>
-          </Link>
-        </form>
+        <Grid container spacing={1}>
+          <Grid item xs={12} sm={12} md={3}>
+            <div className="homeSec1Head">
+              <p>Thank You!</p>
+            </div>
+          </Grid>
+          <Grid item xs={12} sm={12} md={6}>
+            <div className="homelastText">
+              <p>
+                Reach us out now without any hesitation. We promise you your
+                satisfaction with the services we provide.
+              </p>
+            </div>
+          </Grid>
+          <Grid item xs={12} sm={12} md={3}>
+            <form>
+              <Link href="/contact">
+                <button className="homeBtn" style={{ marginBottom: "30px" }}>
+                  Contact us
+                </button>
+              </Link>
+            </form>
+          </Grid>
+        </Grid>
       </div>
+
       <Foter />
     </Layout>
   );
