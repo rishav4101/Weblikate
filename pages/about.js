@@ -48,7 +48,7 @@ const About = (props) => {
           <Grid item xs={12} sm={6} md={6} lg={3}>
             <div className="profilecard">
               <img
-                src="/abha.jpeg"
+                src="/abha.png"
                 alt="."
                 style={{
                   height: "120px",
@@ -90,7 +90,7 @@ const About = (props) => {
           <Grid item xs={12} sm={6} md={6} lg={3}>
             <div className="profilecard">
               <img
-                src="/ramiz.jpeg"
+                src="/ramiz.png"
                 alt="."
                 style={{
                   height: "120px",
@@ -132,7 +132,7 @@ const About = (props) => {
           <Grid item xs={12} sm={6} md={6} lg={3}>
             <div className="profilecard">
               <img
-                src="/rishav.jpeg"
+                src="/rishav.png"
                 alt="."
                 style={{
                   height: "120px",
@@ -174,7 +174,7 @@ const About = (props) => {
           <Grid item xs={12} sm={6} md={6} lg={3}>
             <div className="profilecard">
               <img
-                src="/archi.jpeg"
+                src="/archi.png"
                 alt="."
                 style={{
                   height: "120px",
