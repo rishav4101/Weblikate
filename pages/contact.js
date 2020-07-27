@@ -78,8 +78,8 @@ const Contact = (props) => {
             ></input>
             <input
               required
-              pattern="[0-9]"
-              type="tel"
+              pattern="\d+"
+              type="text"
               placeholder="Phone"
               className="contactfield"
               id="phone"
