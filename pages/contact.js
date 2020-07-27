@@ -147,8 +147,8 @@ const Contact = (props) => {
               type="text"
               placeholder="Message"
               className="contactfield"
-              id="message"
-              name="message"
+              id="messages"
+              name="messages"
               onChange={handleChange}
               style={{ resize: "none", overflow: "hidden", height: "100px" }}
             ></textarea>
