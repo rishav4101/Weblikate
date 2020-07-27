@@ -80,7 +80,7 @@ const Contact = (props) => {
               onChange={handleChange}
             ></input>
   
-            <button className="contactBtn">Submit</button>
+            <button type="submit" className="contactBtn">Submit</button>
           </form>
           <br />
           <p className="contactText">-- OR --</p>
