@@ -8,11 +8,20 @@ const Team = (props) => {
     <Layout>
       <p className="description">Team</p>
       <div className="serviceWrap">
-        <p className="contactHead">Services</p>
+        <p className="contactHead">our services</p>
         <br />
         <Grid container spacing={3}>
           <Grid item xs={12} sm={6}>
             <div className="homeSec1">
+              <img
+                src="/App installation-rafiki.png"
+                alt="."
+                style={{
+                  height: "150px",
+                  padding: "0",
+                  position: "relative",
+                }}
+              />
               <h3>Modern Web Apps</h3>
               Modern Web apps are the future of website solutions. They are
               dynamic and interactive and will provide core functionality to
@@ -24,6 +33,15 @@ const Team = (props) => {
           </Grid>
           <Grid item xs={12} sm={6}>
             <div className="homeSec1">
+              <img
+                src="/Static assets-pana.png"
+                alt="."
+                style={{
+                  height: "150px",
+                  padding: "0",
+                  position: "relative",
+                }}
+              />
               <h3>Responsive Web design</h3>
               Due to the large scale modernisation in the 21st century,
               smartphones have become extremely common. To cope up with the
@@ -34,6 +52,15 @@ const Team = (props) => {
           </Grid>
           <Grid item xs={12} sm={6}>
             <div className="homeSec1">
+              <img
+                src="/Maintenance-amico.png"
+                alt="."
+                style={{
+                  height: "150px",
+                  padding: "0",
+                  position: "relative",
+                }}
+              />
               <h3>Revamping services</h3>
               Need a Web upgrade, Zaffre is just a call away. Get an enhanced
               look at a very affordable rate and improve the presence of your
@@ -42,6 +69,15 @@ const Team = (props) => {
           </Grid>
           <Grid item xs={12} sm={6}>
             <div className="homeSec1">
+              <img
+                src="/Design community-amico.png"
+                alt="."
+                style={{
+                  height: "150px",
+                  padding: "0",
+                  position: "relative",
+                }}
+              />
               <h3>Graphic design</h3>
               Be it a funky logo for your startup or a classic design for your E
               commerce, Zaffre has the solution. We provide the best designs out
@@ -55,6 +91,15 @@ const Team = (props) => {
         <Grid container spacing={3}>
           <Grid item xs={12} sm={6}>
             <div className="homeSec1">
+              <img
+                src="/Search engines-bro.png"
+                alt="."
+                style={{
+                  height: "150px",
+                  padding: "0",
+                  position: "relative",
+                }}
+              />
               <h3>Search engine optimisation </h3>
               Search engine optimisation is the most effective way to increase
               traffic on your website. Our team of developers with their
@@ -65,6 +110,15 @@ const Team = (props) => {
           </Grid>
           <Grid item xs={12} sm={6}>
             <div className="homeSec1">
+              <img
+                src="/Data Trends-pana.png"
+                alt="."
+                style={{
+                  height: "150px",
+                  padding: "0",
+                  position: "relative",
+                }}
+              />
               <h3>Transforming and upscaling your business</h3>
               We understand the value of web presence. Therefore we are here to
               help you scale up your business. We have cloud professionals in
@@ -75,6 +129,15 @@ const Team = (props) => {
           </Grid>
           <Grid item xs={12} sm={6}>
             <div className="homeSec1">
+              <img
+                src="/Challenge-rafiki.png"
+                alt="."
+                style={{
+                  height: "150px",
+                  padding: "0",
+                  position: "relative",
+                }}
+              />
               <h3>UI/UX Design</h3>
               "The first impression is the last impression". Zaffre does live up
               to the saying by providing a robust user interface and a world
@@ -84,6 +147,15 @@ const Team = (props) => {
           </Grid>
           <Grid item xs={12} sm={6}>
             <div className="homeSec1">
+              <img
+                src="/Data-bro.png"
+                alt="."
+                style={{
+                  height: "150px",
+                  padding: "0",
+                  position: "relative",
+                }}
+              />
               <h3>Machine learning solutions</h3>
               Machine learning is the future of Technology and that is exactly
               what Zaffre aims to provide. Our ai professionals will provide the

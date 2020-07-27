@@ -4,11 +4,11 @@ import CircularProgress from "@material-ui/core/CircularProgress";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    display: "flex",
     justifyContent: "center",
     alignItems: "center",
     verticalAlign: "middle",
     paddingTop: "300px",
+    textAlign: "center",
   },
 }));
 
@@ -18,6 +18,16 @@ export default function Loader() {
   return (
     <div className={classes.root}>
       <CircularProgress style={{ color: "#fff", fontSize: "200px" }} />
+      <br /> <br />
+      <img
+        src="/logo.png"
+        alt="."
+        style={{
+          height: "70px",
+          margin: "50px auto",
+          position: "relative",
+        }}
+      />
     </div>
   );
 }
