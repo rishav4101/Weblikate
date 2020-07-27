@@ -63,6 +63,7 @@ const Contact = (props) => {
               placeholder="Name"
               className="contactfield"
               id="name"
+              name="name"
               onChange={handleChange}
             ></input>
             <input
@@ -70,6 +71,7 @@ const Contact = (props) => {
               placeholder="Email"
               className="contactfield"
               id="email"
+              name="email"
               onChange={handleChange}
             ></input>
             <input
@@ -77,6 +79,7 @@ const Contact = (props) => {
               placeholder="Phone"
               className="contactfield"
               id="phone"
+              name="phone"
               onChange={handleChange}
             ></input>
   
