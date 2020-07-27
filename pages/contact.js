@@ -57,8 +57,9 @@ const Contact = (props) => {
           <br />
           <p className="contactText">fill the form below:</p>
   
-          <form onSubmit={handleSubmit} className="contactform" noValidate autoComplete="off">
+          <form onSubmit={handleSubmit} className="contactform" autoComplete="off">
             <input
+              required
               type="text"
               placeholder="Name"
               className="contactfield"
@@ -67,7 +68,8 @@ const Contact = (props) => {
               onChange={handleChange}
             ></input>
             <input
-              type="text"
+              required
+              type="email"
               placeholder="Email"
               className="contactfield"
               id="email"
@@ -75,7 +77,9 @@ const Contact = (props) => {
               onChange={handleChange}
             ></input>
             <input
-              type="text"
+              required
+              pattern="[0-9]"
+              type="tel"
               placeholder="Phone"
               className="contactfield"
               id="phone"
