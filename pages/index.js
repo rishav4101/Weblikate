@@ -19,7 +19,7 @@ const Index = (props) => {
         <Grid container spacing={1}>
           <Grid item xs={12} sm={12} md={3}>
             <div className="homeSec1Head">
-              <p>Introduction</p>
+              
             </div>
           </Grid>
           <Grid item xs={12} sm={12} md={9}>
@@ -259,7 +259,7 @@ const Index = (props) => {
         <Grid container spacing={1}>
           <Grid item xs={12} sm={12} md={3}>
             <div className="homeSec1Head">
-              <p>Thank You!</p>
+              
             </div>
           </Grid>
           <Grid item xs={12} sm={12} md={6}>
