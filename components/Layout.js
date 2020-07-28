@@ -6,8 +6,9 @@ const Layout = (props) => {
   return (
     <div>
       <Head>
-        <title>Zaffre</title>
+        <title>Zaffre Web Solutions</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="zaffre web solution" content="zaffre web solutions zaffre.tech zaffre.technology modern web app machine learing transforming business or scaling SEO optimisation"></meta>
       </Head>
       <body>
         <Mainnav />
