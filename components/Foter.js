@@ -39,9 +39,9 @@ export default function Foter() {
               }}
             >
               <p>
-                Zaffre Technology is the link between you and your dream
-                website. We work with a highly experienced and dedicated team to
-                provide the most efficient solutions to all your problems. Be it
+                Zaffre web solutions is the link between you and your dream
+                website. We work with a talented and dedicated team to provide
+                the most efficient solutions to all your problems. Be it
                 responsive web pages, interactive UI/UX, SEO to maximize your
                 web views, ML integration or scaling-up your business- we offer
                 you the best. Our aim is to help you stay on the cutting edge of
@@ -66,7 +66,7 @@ export default function Foter() {
                   <InstagramIcon style={{ fontSize: "25px" }} />
                 </a>{" "}
                 <a
-                  href="https://www.facebook.com/Zaffre-web-solutions-113494050454776/"
+                  href="https://linkedin.com/company/zaffre-web-solutions/"
                   style={{ textDecoration: "none", color: "white" }}
                 >
                   <LinkedInIcon style={{ fontSize: "25px" }} />

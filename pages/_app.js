@@ -2,7 +2,6 @@ import "../styles.css";
 import React from "react";
 import Router from "next/router";
 import Loader from "../components/Loader";
-import Layout from "../components/Layout";
 import { useState, useEffect, useRef } from "react";
 import * as THREE from "three";
 import WAVES from "vanta/dist/vanta.waves.min";

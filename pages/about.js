@@ -14,9 +14,9 @@ const About = (props) => {
         <p className="contactHead">About us</p>
         <br />
         <p className="aboutText">
-          Zaffre Technology is a group of enthusiastic web developers who aim to
-          revolutionize the way you present yourself on the web. We bring to you
-          the most efficient, attractive and modern solutions to ensure that
+          Zaffre web solutions is a group of enthusiastic web developers who aim
+          to revolutionize the way you present yourself on the web. We bring to
+          you the most efficient, attractive and modern solutions to ensure that
           your website looks inviting to the viewers.
           <br />
           <br />
@@ -29,7 +29,7 @@ const About = (props) => {
           In addition, our team of experienced SEO experts will ensure that your
           website has a high outreach. An excellent website is of no use if it
           doesn't have a healthy amount of visitors. But don't worry, we have
-          that covered too!
+          that covered too.
           <br />
           <br />
           We believe in doing away with the old templates and embracing the
@@ -215,13 +215,13 @@ const About = (props) => {
           </Grid>
         </Grid>
         <br />
-        <p className="aboutText" style={{ marginBottom: "70px" }}>
+        {/* <p className="aboutText" style={{ marginBottom: "70px" }}>
           Zaffre Technology started out as a group of four enthusiastic
           individuals from NIT Durgapur who shared a common vision. Being
           regular contributors to open source and heavily involved in web
           development brought us together. Zaffre Technology is a product of our
           aligned dreams combined with our skills, experience and hardwork.{" "}
-        </p>
+        </p> */}
       </div>
       <Foter />
     </Layout>

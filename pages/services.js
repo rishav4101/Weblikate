@@ -23,12 +23,12 @@ const Team = (props) => {
                 }}
               />
               <h3>Modern Web Apps</h3>
-              Modern Web apps are the future of website solutions. They are
-              dynamic and interactive and will provide core functionality to
-              work. Our team of experts will build you the most customized Web
-              apps best suited for your cause. With the robust backend and a
-              world class UI, these masterpieces are sure to exceed your
-              expectations
+              With rapid developments in the field of technology, websites go
+              outdated very quickly. We aim to provide the latest, trendy web
+              application features to keep your audience engaged. We build
+              customised websites best suited for your cause and add modern,
+              innovative technology to present the most attractive and
+              interactive product.
             </div>
           </Grid>
           <Grid item xs={12} sm={6}>
@@ -43,11 +43,11 @@ const Team = (props) => {
                 }}
               />
               <h3>Responsive Web design</h3>
-              Due to the large scale modernisation in the 21st century,
-              smartphones have become extremely common. To cope up with the
-              current scenario we have a dedicated team to develop interactive
-              and optimised frontend for modern websites with top notch
-              architecture and excellent design.
+              Keeping in mind the ease of end-users, we design our websites with
+              a mobile-first architecture. Our products are not restricted to
+              serve a specific device dimension and is guarenteed to have a
+              responsive layout for any screen size, be it desktop, laptop,
+              tablet or smartphone, without compromising its frontend appeal.
             </div>
           </Grid>
           <Grid item xs={12} sm={6}>
@@ -62,9 +62,11 @@ const Team = (props) => {
                 }}
               />
               <h3>Revamping services</h3>
-              Need a Web upgrade, Zaffre is just a call away. Get an enhanced
-              look at a very affordable rate and improve the presence of your
-              website on the Internet.
+              Not only do we build websites from scratch, we also provide
+              upgradation services for our clients. We build upon existing
+              websites to creatively redesign with modern tools, improve its
+              UI/UX, add new features to make it more presentable or put in
+              additional functionality to make the workflow easier and smoother.
             </div>
           </Grid>
           <Grid item xs={12} sm={6}>
@@ -79,11 +81,11 @@ const Team = (props) => {
                 }}
               />
               <h3>Graphic design</h3>
-              Be it a funky logo for your startup or a classic design for your E
-              commerce, Zaffre has the solution. We provide the best designs out
-              there that will not only have a positive impact on your business
-              but also improve the overall appeal of the same. Work with us and
-              get to use designs that are literal works of art.
+              Any website needs a well-designed blueprint upon which the
+              frontened is built. Zaffre provides the best artistic designs, be
+              it for your website or just a logo for your brand. Our graphic
+              design team is dedicated towards creating visually appealing,
+              catchy and user friendly layouts to captivate your consumers.
             </div>
           </Grid>
         </Grid>
@@ -101,11 +103,11 @@ const Team = (props) => {
                 }}
               />
               <h3>Search engine optimisation </h3>
-              Search engine optimisation is the most effective way to increase
-              traffic on your website. Our team of developers with their
-              extensive experience in the industry will help you design the most
-              optimum architecture for your website and help it grow to the
-              greatest heights.
+              The entire purpose of having a website fails if one does not have
+              sufficient visitors. In order to increase your visibility on the
+              web, we implement the most effective Search Engine Optimisation
+              techniques. Zaffre Technology aims to maximise the traffic on your
+              website by increasing its accessibilty to the end users.
             </div>
           </Grid>
           <Grid item xs={12} sm={6}>
@@ -120,11 +122,11 @@ const Team = (props) => {
                 }}
               />
               <h3>Transforming and upscaling your business</h3>
-              We understand the value of web presence. Therefore we are here to
-              help you scale up your business. We have cloud professionals in
-              our team who will help out in relocating databases to the cloud or
-              maintaining a robust server or administrating the entire backend
-              for your website.
+              Managing a website and satisfying each end user’s demands becomes
+              a big challenge as the number of users increase. One also needs to
+              constantly transform their business so as to keep their brand
+              up-to-date. Zaffre helps you handle the scalability and
+              transformation as your company gathers more number of customers.
             </div>
           </Grid>
           <Grid item xs={12} sm={6}>
@@ -138,11 +140,12 @@ const Team = (props) => {
                   position: "relative",
                 }}
               />
-              <h3>UI/UX Design</h3>
-              "The first impression is the last impression". Zaffre does live up
-              to the saying by providing a robust user interface and a world
-              class design aesthetic so that the users have a brilliant
-              experience of your website.
+              <h3>UI/UX Design</h3>A company rapidly loses its customers if it
+              does not have an appealing, modernised and engaging UI. When
+              Zaffre builds a product, we prioritise the user experience. We
+              have a team of dedicated individuals who make sure that your
+              website is interactive, aesthetic and the end users are satisfied
+              with the product.
             </div>
           </Grid>
           <Grid item xs={12} sm={6}>
@@ -157,11 +160,11 @@ const Team = (props) => {
                 }}
               />
               <h3>Machine learning solutions</h3>
-              Machine learning is the future of Technology and that is exactly
-              what Zaffre aims to provide. Our ai professionals will provide the
-              optimal performance of strong machine learning algorithms and
-              increase the demand of your business in the industry. Data
-              analysis, image processing just name it and zaffre will be ready.
+              Machine learning is one of the most rapidly growing technologies
+              and the number of consumers incorporating ML into their products
+              is also rising. As Zaffre believes in staying at the cutting edge
+              of technology, our team provides ML solutions required to improve
+              your website and provide best customer experience.
             </div>
           </Grid>
         </Grid>

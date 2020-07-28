@@ -1,7 +1,5 @@
-import React, { Children, useState } from "react";
+import React, { useState } from "react";
 import Layout from "../components/Layout";
-import { makeStyles } from "@material-ui/core/styles";
-import TextField from "@material-ui/core/TextField";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
@@ -49,17 +47,11 @@ const Contact = (props) => {
           <p className="contactText">
             Call/whatsapp us at <br />
             <Grid container spacing={1}>
-              <Grid item xs={6} sm={3} md={3} style={{ margin: "0 auto" }}>
+              <Grid item xs={6} sm={6} md={6} style={{ margin: "0 auto" }}>
                 <p className="contactnumber">+91 70033 19263</p>
               </Grid>
-              <Grid item xs={6} sm={3} md={3} style={{ margin: "0 auto" }}>
+              <Grid item xs={6} sm={6} md={6} style={{ margin: "0 auto" }}>
                 <p className="contactnumber">+91 86175 28221</p>
-              </Grid>
-              <Grid item xs={6} sm={3} md={3} style={{ margin: "0 auto" }}>
-                <p className="contactnumber">+91 90733 83920</p>
-              </Grid>
-              <Grid item xs={6} sm={3} md={3} style={{ margin: "0 auto" }}>
-                <p className="contactnumber">+91 75958 03377</p>
               </Grid>
             </Grid>
           </p>
@@ -85,7 +77,7 @@ const Contact = (props) => {
                 <InstagramIcon style={{ fontSize: "35px" }} />
               </a>{" "}
               <a
-                href="https://www.facebook.com/Zaffre-web-solutions-113494050454776/"
+                href="https://linkedin.com/company/zaffre-web-solutions/"
                 style={{ textDecoration: "none", color: "white" }}
               >
                 <LinkedInIcon style={{ fontSize: "35px" }} />
@@ -163,18 +155,18 @@ const Contact = (props) => {
           <p className="contactText">
             Call/whatsapp us at <br />
             <Grid container spacing={1}>
-              <Grid item xs={6} sm={3} md={3} style={{ margin: "0 auto" }}>
+              <Grid item xs={6} sm={6} md={6} style={{ margin: "0 auto" }}>
                 <p className="contactnumber">+91 70033 19263</p>
               </Grid>
-              <Grid item xs={6} sm={3} md={3} style={{ margin: "0 auto" }}>
+              <Grid item xs={6} sm={6} md={6} style={{ margin: "0 auto" }}>
                 <p className="contactnumber">+91 86175 28221</p>
               </Grid>
-              <Grid item xs={6} sm={3} md={3} style={{ margin: "0 auto" }}>
+              {/* <Grid item xs={6} sm={3} md={3} style={{ margin: "0 auto" }}>
                 <p className="contactnumber">+91 90733 83920</p>
               </Grid>
               <Grid item xs={6} sm={3} md={3} style={{ margin: "0 auto" }}>
                 <p className="contactnumber">+91 75958 03377</p>
-              </Grid>
+              </Grid> */}
             </Grid>
           </p>
           <br />
@@ -199,7 +191,7 @@ const Contact = (props) => {
                 <InstagramIcon style={{ fontSize: "35px" }} />
               </a>{" "}
               <a
-                href="https://www.facebook.com/Zaffre-web-solutions-113494050454776/"
+                href="https://linkedin.com/company/zaffre-web-solutions/"
                 style={{ textDecoration: "none", color: "white" }}
               >
                 <LinkedInIcon style={{ fontSize: "35px" }} />

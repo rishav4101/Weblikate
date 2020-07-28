@@ -19,19 +19,23 @@ const Index = (props) => {
         <Grid container spacing={1}>
           <Grid item xs={12} sm={12} md={3}>
             <div className="homeSec1Head">
-              <p>Lets start!</p>
+              <p>Introduction</p>
             </div>
           </Grid>
           <Grid item xs={12} sm={12} md={9}>
             <div className="homeSec2">
               <p>
-                If you are struggling with an old crappy website, If you want to
-                upgrade your website to the modern web applications or If you
-                want any other web solution, We have got you covered. We
-                understand the importance of being on web today and the
-                investment you put in to get the perfect product you would want.
-                We cover almost all web solution services to meet your
-                requirements changing with time.
+                In this modern era of technical advancement, almost the complete
+                world resides online today. Things that were not possible
+                yesterday, Is possible today. And the things not possible today
+                will be possible tomorrow. We call this evolution. To be with
+                thid evolution on web, there is a need of updated web designs
+                and softwares. Applications that is appealing to the world today
+                and tomorrow. Hence, we understand the importance of being
+                updated on web today and the investment you put in to get the
+                perfect product you would want and would be appealing to your
+                customers. We therefore cover almost all web solution services
+                to meet your requirements changing with time.
               </p>
             </div>
           </Grid>
@@ -40,7 +44,7 @@ const Index = (props) => {
       <hr></hr>
       <div className="homeSec1wrap">
         <div className="homeSec1Head">
-          <p>WHy zaffre?</p>
+          <p>WHy choose us?</p>
         </div>
 
         <Grid container spacing={3}>
@@ -56,10 +60,10 @@ const Index = (props) => {
                 }}
               />
               <h3>Team</h3>
-              Zaffre is a dedicated and extremely talented team of individuals
-              having the first hand experience of working in the IT industry and
-              thrives hard to achieve the pinnacle of perfection in any task
-              they perform.
+              Zaffre is a dedicated and extremely talented team of young
+              individuals and minds having the first hand experience of working
+              in the IT industry and thrives hard to achieve the pinnacle of
+              perfection in any task they perform.
             </div>
           </Grid>
           <Grid item xs={12} sm={6} md={3}>
@@ -75,8 +79,9 @@ const Index = (props) => {
               />
               <h3>Transparency</h3>
               We maintain a transparent and healthy relation with our clients
-              and keep them updated regarding the progress of the work. We
-              maintain the trust factor among our clients.
+              and keep them updated regarding the progress of the work. It helps
+              both the client and team to create the exact output that meets the
+              client's business needs.
             </div>
           </Grid>
           <Grid item xs={12} sm={6} md={3}>
@@ -91,9 +96,10 @@ const Index = (props) => {
                 }}
               />
               <h3>High level of customisation</h3>
-              Zaffre keeps the interests of the clients as their top priority
-              and allows a wide range of customisable features at a very
-              affordable price.
+              We at Zaffre keep the interests of our clients and their business
+              as our top priority and provide a very wide range of customisable
+              and updated features at a very affordable price with wide range of
+              designs.
             </div>
           </Grid>
           <Grid item xs={12} sm={6} md={3}>
@@ -137,8 +143,8 @@ const Index = (props) => {
               <h3>Modern Web Apps</h3>
               Our team of experts builds intelligent websites that actually
               perform & exceed your expectations. We offer completely customized
-              interactive web solutions. We provide world class UI for your
-              site.
+              interactive web solutions. We also provide highly customizable
+              modern world UI/UX for your site.
             </div>
           </Grid>
           <Grid item xs={12} sm={6} md={3}>
@@ -220,12 +226,13 @@ const Index = (props) => {
           <Grid item xs={12} sm={12} md={6}>
             <div className="homeSec2">
               <p>
-                Zaffre Technology started out as a group of four enthusiastic
-                individuals from NIT Durgapur who shared a common vision. Being
-                regular contributors to open source and heavily involved in web
-                development brought us together. Zaffre Technology is a product
+                Zaffre Technology has started as a group of four enthusiastic
+                developers from National Institute of Technology Durgapur, India
+                who share a common vision. Being regular contributors to open
+                source and heavily involved in web development and design
+                brought us together. Therefore, Zaffre Technology is a product
                 of our aligned dreams combined with our skills, experience and
-                hardwork.{" "}
+                hardwork.
               </p>
             </div>
           </Grid>
@@ -258,8 +265,9 @@ const Index = (props) => {
           <Grid item xs={12} sm={12} md={6}>
             <div className="homelastText">
               <p>
-                Reach us out now without any hesitation. We promise you your
-                satisfaction with the services we provide.
+                REACH US OUT NOW WITHOUT ANY HESITATION. GIVE US A TRY AND WE
+                PROMISE YOU YOUR SATISFACTION WITH THE SERVICES AND PRODUCTS WE
+                WILL PROVIDE YOU WITH.
               </p>
             </div>
           </Grid>
