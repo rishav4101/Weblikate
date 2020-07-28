@@ -27,11 +27,11 @@ const Index = (props) => {
               <p>
                 In this modern era of technical advancement, almost the complete
                 world resides online today. Things that were not possible
-                yesterday, Is possible today. And the things not possible today
+                yesterday is possible today. And the things not possible today
                 will be possible tomorrow. We call this evolution. To be with
-                thid evolution on web, there is a need of updated web designs
-                and softwares. Applications that is appealing to the world today
-                and tomorrow. Hence, we understand the importance of being
+                this evolution on web, there is a need of updated web designs
+                and softwares. Applications that are appealing to the world
+                today and tomorrow. Hence, we understand the importance of being
                 updated on web today and the investment you put in to get the
                 perfect product you would want and would be appealing to your
                 customers. We therefore cover almost all web solution services
@@ -97,9 +97,9 @@ const Index = (props) => {
               />
               <h3>High level of customisation</h3>
               We at Zaffre keep the interests of our clients and their business
-              as our top priority and provide a very wide range of customisable
-              and updated features at a very affordable price with wide range of
-              designs.
+              as our top priority. We provide a very wide range of customizable
+              and updated features with perfect fit designs at an affordable
+              price.
             </div>
           </Grid>
           <Grid item xs={12} sm={6} md={3}>
@@ -141,10 +141,10 @@ const Index = (props) => {
                 }}
               />
               <h3>Modern Web Apps</h3>
-              Our team of experts builds intelligent websites that actually
-              perform & exceed your expectations. We offer completely customized
+              Our team at zaffre builds intelligent websites that actually
+              perform & exceed your expectations. We offer highly customized
               interactive web solutions. We also provide highly customizable
-              modern world UI/UX for your site.
+              modern world UI/UX for your website.
             </div>
           </Grid>
           <Grid item xs={12} sm={6} md={3}>
@@ -159,9 +159,9 @@ const Index = (props) => {
                 }}
               />
               <h3>SEO improving</h3>
-              we want to make sure every dollar you spend is a great investment.
-              We are SEO professionals with extensive experience in the
-              industry, and we will work closely with you to reach your goals.
+              We want to make sure every dollar you spend is a great investment.
+              Therefore, while building your website we also keep it SEO
+              friendly. We work closely with clients to reach their goals.
             </div>
           </Grid>
           <Grid item xs={12} sm={6} md={3}>
@@ -176,9 +176,9 @@ const Index = (props) => {
                 }}
               />
               <h3>Transforming and Scaling Up your Business</h3>
-              if you are struggling with old crappy sites or in any of the
+              If you are struggling with old crappy websites or in any of the
               following situations we are here to solve your problems. we
-              understand the importance web presence.
+              understand the importance of your web presence.
             </div>
           </Grid>
           <Grid item xs={12} sm={6} md={3}>
@@ -194,9 +194,9 @@ const Index = (props) => {
               />
               <h3>Machine learning solutions</h3>
               Machine learning and AI is the future and we are bringing the
-              future to you. We offer AI enabled Web and Software Solutions
+              future to you. We offer ML enabled Web and Software Solutions
               tailored to the business needs and trained on custom dataset to
-              WOW the end user.
+              provide a smooth user experience.
             </div>
           </Grid>
         </Grid>
