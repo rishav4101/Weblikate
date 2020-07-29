@@ -54,19 +54,19 @@ export default function Foter() {
                 }}
               >
                 <a
-                  href="https://www.facebook.com/Weblikate-web-solutions-113494050454776/"
+                  href="https://www.facebook.com/Weblikate-104603284684656/"
                   style={{ textDecoration: "none", color: "white" }}
                 >
                   <FacebookIcon style={{ fontSize: "25px" }} />
                 </a>{" "}
                 <a
-                  href="https://instagram.com/Weblikate.technologies?igshid=t0padlceqgt0"
+                  href="https://www.instagram.com/weblikate/"
                   style={{ textDecoration: "none", color: "white" }}
                 >
                   <InstagramIcon style={{ fontSize: "25px" }} />
                 </a>{" "}
                 <a
-                  href="https://linkedin.com/company/Weblikate-web-solutions/"
+                  href="https://www.linkedin.com/company/weblikate/"
                   style={{ textDecoration: "none", color: "white" }}
                 >
                   <LinkedInIcon style={{ fontSize: "25px" }} />
