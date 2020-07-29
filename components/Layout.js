@@ -8,7 +8,7 @@ const Layout = (props) => {
       <Head>
         <title>Weblikate</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="Weblikate web solution" content="Weblikate web solutions Weblikate.tech Weblikate.technology modern web app machine learing transforming business or scaling SEO optimisation"></meta>
+        <meta name="Weblikate" content="Weblikate web solutions weblikate.com Weblicate technologies Weblikate.tech Weblikate.technology modern web app machine learing transforming business or scaling SEO optimisation"></meta>
       </Head>
       <body>
         <Mainnav />
