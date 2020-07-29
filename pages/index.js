@@ -167,7 +167,7 @@ const Index = (props) => {
                 }}
               />
               <h3>SEO improving</h3>
-              We want to make sure every dollar you spend is a great investment.
+              We want to make sure every penny you spend is a great investment.
               Therefore, while building your website we also keep it SEO
               friendly. We work closely with clients to reach their goals.
             </div>

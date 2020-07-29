@@ -23,7 +23,7 @@ const Contact = (props) => {
     setLoading(1);
     e.preventDefault();
     axios
-      .post("https://Weblikateweb.herokuapp.com/api/contact/", state)
+      .post("https://zaffreweb.herokuapp.com/api/contact/", state)
       .then((res) => {
         setLoading(0);
         if (res.status === 201) setFormSubmit(1);
