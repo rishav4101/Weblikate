@@ -9,7 +9,7 @@
   margin: 0;
 }
 html,
-body {
+body, main, .bodymain {
   background-color: rgba(255, 255, 255, 0);
   min-height: 100vh;
   min-width: 100%;
@@ -25,7 +25,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-body::-webkit-scrollbar {
+body::-webkit-scrollbar, main::-webkit-scrollbar, .bodymain::-webkit-scrollbar {
   width: 0;
   height: 0;
   display: none;
@@ -151,7 +151,7 @@ footer {
 
 @media only screen and (max-width: 800px) {
   .homeJ {
-    width: 60%;
+    width: 85%;
     max-width: 500px;
     right: 0;
     position: relative;
@@ -165,7 +165,7 @@ footer {
   }
   .homeJtext {
     padding: 0;
-    font-size: 38px;
+    font-size: 34px;
     font-weight: 600;
     text-transform: uppercase;
   }

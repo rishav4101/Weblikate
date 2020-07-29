@@ -4,7 +4,7 @@ import Mainnav from "../components/Navbar";
 
 const Layout = (props) => {
   return (
-    <div>
+    <>
       <Head>
         <title>Weblikate</title>
         <link rel="icon" href="/favicon.ico" />
@@ -28,7 +28,7 @@ const Layout = (props) => {
           </p>
         </footer>
       </body>
-    </div>
+    </>
   );
 };
 
