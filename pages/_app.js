@@ -29,7 +29,7 @@ export default function MyApp({ Component, pageProps }) {
   });
 
   const [vantaEffect, setVantaEffect] = useState(0);
-  const myRef = useRef(null);
+  // const myRef = useRef(null);
   useEffect(() => {
     if (!vantaEffect) {
       setVantaEffect(
@@ -38,10 +38,10 @@ export default function MyApp({ Component, pageProps }) {
           THREE: THREE,
           mouseControls: true,
           touchControls: true,
-          minHeight: 200.0,
-          minWidth: 200.0,
+          minHeight: 1300.0,
+          minWidth: 1800.0,
           scale: 1.0,
-          scaleMobile: 1,
+          scaleMobile: 1.0,
           color: 0x0,
           shininess: 32.0,
           waveHeight: 23.5,
@@ -53,8 +53,9 @@ export default function MyApp({ Component, pageProps }) {
   }, [vantaEffect]);
   return (
     <>
-      <div ref={myRef} className="container" id="van"></div>
+      <div className="container" id="van"></div>
       {loading ? <Loader /> : <Component {...pageProps} />}
+
     </>
   );
 }
