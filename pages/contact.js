@@ -23,7 +23,7 @@ const Contact = (props) => {
     setLoading(1);
     e.preventDefault();
     axios
-      .post("https://zaffreweb.herokuapp.com/api/contact/", state)
+      .post("https://Weblikateweb.herokuapp.com/api/contact/", state)
       .then((res) => {
         setLoading(0);
         if (res.status === 201) setFormSubmit(1);
@@ -65,19 +65,19 @@ const Contact = (props) => {
               }}
             >
               <a
-                href="https://www.facebook.com/Zaffre-web-solutions-113494050454776/"
+                href="https://www.facebook.com/Weblikate-web-solutions-113494050454776/"
                 style={{ textDecoration: "none", color: "white" }}
               >
                 <FacebookIcon style={{ fontSize: "35px" }} />
               </a>{" "}
               <a
-                href="https://instagram.com/zaffre.technologies?igshid=t0padlceqgt0"
+                href="https://instagram.com/Weblikate.technologies?igshid=t0padlceqgt0"
                 style={{ textDecoration: "none", color: "white" }}
               >
                 <InstagramIcon style={{ fontSize: "35px" }} />
               </a>{" "}
               <a
-                href="https://linkedin.com/company/zaffre-web-solutions/"
+                href="https://linkedin.com/company/Weblikate-web-solutions/"
                 style={{ textDecoration: "none", color: "white" }}
               >
                 <LinkedInIcon style={{ fontSize: "35px" }} />
@@ -179,19 +179,19 @@ const Contact = (props) => {
               }}
             >
               <a
-                href="https://www.facebook.com/Zaffre-web-solutions-113494050454776/"
+                href="https://www.facebook.com/Weblikate-web-solutions-113494050454776/"
                 style={{ textDecoration: "none", color: "white" }}
               >
                 <FacebookIcon style={{ fontSize: "35px" }} />
               </a>{" "}
               <a
-                href="https://instagram.com/zaffre.technologies?igshid=t0padlceqgt0"
+                href="https://instagram.com/Weblikate.technologies?igshid=t0padlceqgt0"
                 style={{ textDecoration: "none", color: "white" }}
               >
                 <InstagramIcon style={{ fontSize: "35px" }} />
               </a>{" "}
               <a
-                href="https://linkedin.com/company/zaffre-web-solutions/"
+                href="https://linkedin.com/company/Weblikate-web-solutions/"
                 style={{ textDecoration: "none", color: "white" }}
               >
                 <LinkedInIcon style={{ fontSize: "35px" }} />

@@ -14,7 +14,7 @@ const About = (props) => {
         <p className="contactHead">About us</p>
         <br />
         <p className="aboutText">
-          Zaffre web solutions is a group of enthusiastic web developers who aim
+          Weblikate web solutions is a group of enthusiastic web developers who aim
           to revolutionize the way you present yourself on the web. We bring to
           you the most efficient, attractive and modern solutions to ensure that
           your website looks inviting to the viewers.
@@ -22,7 +22,7 @@ const About = (props) => {
           <br />
           With the tech world changing everyday, it is important to stay on the
           cutting edge in order to meet with the demands of the end users. We,
-          at Zaffre, give to you ML enabled websites to deliver the best user
+          at Weblikate, give to you ML enabled websites to deliver the best user
           experience.
           <br />
           <br />
@@ -216,10 +216,10 @@ const About = (props) => {
         </Grid>
         <br />
         {/* <p className="aboutText" style={{ marginBottom: "70px" }}>
-          Zaffre Technology started out as a group of four enthusiastic
+          Weblikate Technology started out as a group of four enthusiastic
           individuals from NIT Durgapur who shared a common vision. Being
           regular contributors to open source and heavily involved in web
-          development brought us together. Zaffre Technology is a product of our
+          development brought us together. Weblikate Technology is a product of our
           aligned dreams combined with our skills, experience and hardwork.{" "}
         </p> */}
       </div>

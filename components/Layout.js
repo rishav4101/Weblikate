@@ -6,9 +6,9 @@ const Layout = (props) => {
   return (
     <div>
       <Head>
-        <title>Zaffre Web Solutions</title>
+        <title>Weblikate Web Solutions</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="zaffre web solution" content="zaffre web solutions zaffre.tech zaffre.technology modern web app machine learing transforming business or scaling SEO optimisation"></meta>
+        <meta name="Weblikate web solution" content="Weblikate web solutions Weblikate.tech Weblikate.technology modern web app machine learing transforming business or scaling SEO optimisation"></meta>
       </Head>
       <body>
         <Mainnav />
@@ -24,7 +24,7 @@ const Layout = (props) => {
               marginTop: "7px",
             }}
           >
-            copyright&copy; 2020 Zaffre
+            Weblikate 2020
           </p>
         </footer>
       </body>

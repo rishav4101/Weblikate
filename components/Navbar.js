@@ -43,6 +43,7 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
     paddingTop: "5px",
+    paddingLeft: "20px"
   },
   cross: {
     position: "absolute",
@@ -75,7 +76,7 @@ export default function Mainnav() {
         <Toolbar className={classes.toolbar}>
           {" "}
           <img
-            src="/favicon.ico"
+            src="/logo.png"
             alt="."
             style={{
               height: "45px",
@@ -87,7 +88,7 @@ export default function Mainnav() {
           <Typography variant="h6" className={classes.title}>
             <Link href="/">
               <div style={{ textDecoration: "none", cursor: "pointer" }}>
-                ZAFFRE
+                Weblikate
               </div>
             </Link>
           </Typography>

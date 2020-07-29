@@ -8,10 +8,10 @@ const Index = (props) => {
     <Layout>
       <div className="indexWrapper">
         <div className="homeJ">
-          <div className="homeJtext">Welcome to Zaffre Web Solutions</div>
+          <div className="homeJtext">Welcome to Weblikate Technologies</div>
 
           <div className="homeJdes">
-            A portal to the future of web technologies and services
+            A portal to the future of web solution and services
           </div>
         </div>
       </div>
@@ -19,10 +19,10 @@ const Index = (props) => {
         <Grid container spacing={1}>
           <Grid item xs={12} sm={12} md={3}>
             <div className="homeSec1Head">
-              
+
             </div>
           </Grid>
-          <Grid item xs={12} sm={12} md={9}>
+          <Grid item xs={12} sm={12} md={6}>
             <div className="homeSec2">
               <p>
                 In this modern era of technical advancement, almost the complete
@@ -37,6 +37,11 @@ const Index = (props) => {
                 customers. We therefore cover almost all web solution services
                 to meet your requirements changing with time.
               </p>
+            </div>
+          </Grid>
+          <Grid item xs={12} sm={12} md={3}>
+            <div className="homeSec1Head">
+
             </div>
           </Grid>
         </Grid>
@@ -60,7 +65,7 @@ const Index = (props) => {
                 }}
               />
               <h3>Team</h3>
-              Zaffre is a dedicated and extremely talented team of young
+              Weblikate is a dedicated and extremely talented team of young
               individuals and minds having the first hand experience of working
               in the IT industry and thrives hard to achieve the pinnacle of
               perfection in any task they perform.
@@ -96,7 +101,7 @@ const Index = (props) => {
                 }}
               />
               <h3>High level of customisation</h3>
-              We at Zaffre keep the interests of our clients and their business
+              We at Weblikate keep the interests of our clients and their business
               as our top priority. We provide a very wide range of customizable
               and updated features with perfect fit designs at an affordable
               price.
@@ -114,7 +119,7 @@ const Index = (props) => {
                 }}
               />
               <h3>Quality assurance</h3>
-              Having worked in the industry the team at Zaffre is very cautious
+              Having worked in the industry the team at Weblikate is very cautious
               about the product they deliver. We pay attention to the finest of
               details in the architecture as well as the design of our products
               and try to exceed the expectations of our clients.
@@ -141,7 +146,7 @@ const Index = (props) => {
                 }}
               />
               <h3>Modern Web Apps</h3>
-              Our team at zaffre builds intelligent websites that actually
+              Our team at Weblikate builds intelligent websites that actually
               perform & exceed your expectations. We offer highly customized
               interactive web solutions. We also provide highly customizable
               modern world UI/UX for your website.
@@ -226,11 +231,11 @@ const Index = (props) => {
           <Grid item xs={12} sm={12} md={6}>
             <div className="homeSec2">
               <p>
-                Zaffre Technology has started as a group of four enthusiastic
+                Weblikate Technology has started as a group of four enthusiastic
                 developers from National Institute of Technology Durgapur, India
                 who share a common vision. Being regular contributors to open
                 source and heavily involved in web development and design
-                brought us together. Therefore, Zaffre Technology is a product
+                brought us together. Therefore, Weblikate Technology is a product
                 of our aligned dreams combined with our skills, experience and
                 hardwork.
               </p>
@@ -259,7 +264,7 @@ const Index = (props) => {
         <Grid container spacing={1}>
           <Grid item xs={12} sm={12} md={3}>
             <div className="homeSec1Head">
-              
+
             </div>
           </Grid>
           <Grid item xs={12} sm={12} md={6}>
@@ -270,8 +275,6 @@ const Index = (props) => {
                 WILL PROVIDE YOU WITH.
               </p>
             </div>
-          </Grid>
-          <Grid item xs={12} sm={12} md={3}>
             <form>
               <Link href="/contact">
                 <button className="homeBtn" style={{ marginBottom: "30px" }}>
@@ -279,6 +282,9 @@ const Index = (props) => {
                 </button>
               </Link>
             </form>
+          </Grid>
+          <Grid item xs={12} sm={12} md={3}>
+
           </Grid>
         </Grid>
       </div>

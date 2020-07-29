@@ -39,7 +39,7 @@ export default function Foter() {
               }}
             >
               <p>
-                Zaffre web solutions is the link between you and your dream
+                Weblikate web solutions is the link between you and your dream
                 website. We work with a talented and dedicated team to provide
                 the most efficient solutions to all your problems. Be it
                 responsive web pages, interactive UI/UX, SEO to maximize your
@@ -54,19 +54,19 @@ export default function Foter() {
                 }}
               >
                 <a
-                  href="https://www.facebook.com/Zaffre-web-solutions-113494050454776/"
+                  href="https://www.facebook.com/Weblikate-web-solutions-113494050454776/"
                   style={{ textDecoration: "none", color: "white" }}
                 >
                   <FacebookIcon style={{ fontSize: "25px" }} />
                 </a>{" "}
                 <a
-                  href="https://instagram.com/zaffre.technologies?igshid=t0padlceqgt0"
+                  href="https://instagram.com/Weblikate.technologies?igshid=t0padlceqgt0"
                   style={{ textDecoration: "none", color: "white" }}
                 >
                   <InstagramIcon style={{ fontSize: "25px" }} />
                 </a>{" "}
                 <a
-                  href="https://linkedin.com/company/zaffre-web-solutions/"
+                  href="https://linkedin.com/company/Weblikate-web-solutions/"
                   style={{ textDecoration: "none", color: "white" }}
                 >
                   <LinkedInIcon style={{ fontSize: "25px" }} />

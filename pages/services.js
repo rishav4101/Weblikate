@@ -82,7 +82,7 @@ const Team = (props) => {
               />
               <h3>Graphic design</h3>
               Any website needs a well-designed blueprint upon which the
-              frontened is built. Zaffre provides the best artistic designs, be
+              frontened is built. Weblikate provides the best artistic designs, be
               it for your website or just a logo for your brand. Our graphic
               design team is dedicated towards creating visually appealing,
               catchy and user friendly layouts to captivate your consumers.
@@ -106,7 +106,7 @@ const Team = (props) => {
               The entire purpose of having a website fails if one does not have
               sufficient visitors. In order to increase your visibility on the
               web, we implement the most effective Search Engine Optimisation
-              techniques. Zaffre Technology aims to maximise the traffic on your
+              techniques. Weblikate Technology aims to maximise the traffic on your
               website by increasing its accessibilty to the end users.
             </div>
           </Grid>
@@ -125,7 +125,7 @@ const Team = (props) => {
               Managing a website and satisfying each end user’s demands becomes
               a big challenge as the number of users increase. One also needs to
               constantly transform their business so as to keep their brand
-              up-to-date. Zaffre helps you handle the scalability and
+              up-to-date. Weblikate helps you handle the scalability and
               transformation as your company gathers more number of customers.
             </div>
           </Grid>
@@ -142,7 +142,7 @@ const Team = (props) => {
               />
               <h3>UI/UX Design</h3>A company rapidly loses its customers if it
               does not have an appealing, modernised and engaging UI. When
-              Zaffre builds a product, we prioritise the user experience. We
+              Weblikate builds a product, we prioritise the user experience. We
               have a team of dedicated individuals who make sure that your
               website is interactive, aesthetic and the end users are satisfied
               with the product.
@@ -162,7 +162,7 @@ const Team = (props) => {
               <h3>Machine learning solutions</h3>
               Machine learning is one of the most rapidly growing technologies
               and the number of consumers incorporating ML into their products
-              is also rising. As Zaffre believes in staying at the cutting edge
+              is also rising. As Weblikate believes in staying at the cutting edge
               of technology, our team provides ML solutions required to improve
               your website and provide best customer experience.
             </div>
