@@ -43,7 +43,7 @@ const About = (props) => {
         <Grid
           container
           spacing={3}
-          style={{ width: "90%", maxWidth: "1400px", margin: "0 auto" }}
+          style={{ width: "90%", maxWidth: "1400px", margin: "0 auto", justifyContent:"center" }}
         >
           <Grid item xs={12} sm={6} md={6} lg={3}>
             <div className="profilecard">
@@ -206,6 +206,49 @@ const About = (props) => {
                 </a>{" "}
                 <a
                   href="https://github.com/archi-007"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  <GitHubIcon style={{ fontSize: "35px" }} />
+                </a>
+              </div>
+            </div>
+          </Grid>
+          <Grid item xs={12} sm={6} md={6} lg={3}>
+            <div className="profilecard">
+              <img
+                src="/sakshi.jpeg"
+                alt="."
+                style={{
+                  height: "120px",
+                  maxWidth:"120px",
+                  margin: "10px auto",
+                  left: "0",
+                  position: "relative",
+                  borderRadius: "100px",
+                }}
+              />
+              <h3>Sakshi Ranjan</h3>
+              <div
+                style={{
+                  fontSize: "35px",
+                  margin: "0 auto",
+                  marginTop: "10px",
+                }}
+              >
+                <a
+                  href="https://facebook.com/sakshi.ranjan.39?ref=bookmarks"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  <FacebookIcon style={{ fontSize: "35px" }} />
+                </a>{" "}
+                <a
+                  href="https://www.linkedin.com/in/sakshi-r-b3b0621a0/"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  <LinkedInIcon style={{ fontSize: "35px" }} />
+                </a>{" "}
+                <a
+                  href="https://github.com/Sakshi-007"
                   style={{ textDecoration: "none", color: "white" }}
                 >
                   <GitHubIcon style={{ fontSize: "35px" }} />
