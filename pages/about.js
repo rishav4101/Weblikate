@@ -44,7 +44,8 @@ const About = (props) => {
           container
           spacing={3}
           style={{ width: "90%", maxWidth: "1400px", margin: "0 auto", justifyContent:"center" }}
-        >
+        > 
+    {/*
           <Grid item xs={12} sm={6} md={6} lg={3}>
             <div className="profilecard">
               <img
@@ -87,6 +88,7 @@ const About = (props) => {
               </div>
             </div>
           </Grid>
+          */}
           <Grid item xs={12} sm={6} md={6} lg={3}>
             <div className="profilecard">
               <img
@@ -171,6 +173,7 @@ const About = (props) => {
               </div>
             </div>
           </Grid>
+    {/*
           <Grid item xs={12} sm={6} md={6} lg={3}>
             <div className="profilecard">
               <img
@@ -256,6 +259,7 @@ const About = (props) => {
               </div>
             </div>
           </Grid>
+          */}
         </Grid>
         <br />
         {/* <p className="aboutText" style={{ marginBottom: "70px" }}>
