@@ -1,24 +1,33 @@
 <h1 align="center">
   <br>
   <a><img src="https://github.com/rishav4101/Weblikate/blob/main/Images/WEBLIKATEblackPNG.png" width="200"></a>
-  <br>  
-  Weblikate
   <br>
 </h1>
 
 <p align="center">
-
-  <a href="https://reactjs.org/"><img src="https://github.com/rishav4101/eth-supplychain-dapp/blob/main/images/react.png" width="80"></a>
-
-  
+  <a href="https://reactjs.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/800px-Nextjs-logo.svg.png" width="80"></a>
   <a href="https://material-ui.com/">
-    <img src="https://github.com/rishav4101/eth-supplychain-dapp/blob/main/images/mat.png" width="60">       
+    <img src="https://github.com/rishav4101/eth-supplychain-dapp/blob/main/images/mat.png" width="50">       
   </a>
+  <a href="https://www.vantajs.com/">
+    <img src="https://www.bypeople.com/wp-content/uploads/2019/12/free-webgl-3d-background-tool.png" width="80">       
+  </a>
+</p>
+<h4 align="center">A concept SaaS website.</h4>
 
-
+<p align="center">
+  <a >
+    <img src="https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg">   
+  </a>
+  <a href="https://github.com/rishav4101/Weblikate/issues"><img src="https://img.shields.io/github/issues/rishav4101/Weblikate.svg"></a>
+  
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/license-MIT-green.svg">
+  </a>
 </p>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 
 ## Getting Started
 
