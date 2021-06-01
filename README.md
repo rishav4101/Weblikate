@@ -1,3 +1,23 @@
+<h1 align="center">
+  <br>
+  <a><img src="https://github.com/rishav4101/Weblikate/blob/main/Images/WEBLIKATEblackPNG.png" width="200"></a>
+  <br>  
+  Weblikate
+  <br>
+</h1>
+
+<p align="center">
+
+  <a href="https://reactjs.org/"><img src="https://github.com/rishav4101/eth-supplychain-dapp/blob/main/images/react.png" width="80"></a>
+
+  
+  <a href="https://material-ui.com/">
+    <img src="https://github.com/rishav4101/eth-supplychain-dapp/blob/main/images/mat.png" width="60">       
+  </a>
+
+
+</p>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
